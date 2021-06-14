@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+
+a:hover,
+a{
+    text-decoration: none;
+    
+}
+ul,ol{
+    list-style: none;
+    margin: 0;
+}
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+    font-family:'Oswald', sans-serif;
+}
+p{
+  padding: 0;
+  margin: 0;
+}
+
+body{
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+    
+}
+
+#Service{
+    padding: 30px;
+}
+
+
+.ser_heading{
+    margin-bottom: 30px;
+}
+
+.ser_heading h1{
+     font-size: 40px;
+     color: #000;
+     font-weight:700;  
+}
+
+.Ser_pic{
+    position: relative;
+    margin-bottom: 20px;
+}
+.ser_content{
+    margin-top: 160px;
+    margin-left: 55px;
+}
+.ser_content p{
+    margin-bottom: 30px;
+    font-size: 18px;
+    padding-right: 60px
+}
+.ser_content a{
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #000;
+    transition: all linear 0.3s
+}
+.ser_content a:hover{
+    background: #0872b9;
+    border-color:#000;
+}
+
+
+/*serdetail start*/
+
+#serdetail{
+    padding: 25px;
+    background: #DBF3FA;
+}
+
+.img-fluid{
+    margin-top: 30px;
+    max-width: 100%;
+    height: auto;        
+}
+
+.nafis img{
+    height: 365px;
+    width: 546px;
+    margin-top: 30px;
+}
+
+.serdetail_content{
+   margin-top: 20px;
+   margin-left: 10px;
+    
+}
+.serdetail_content p{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+.mb-10{
+    margin-bottom: 10px;
+}
+
+
+#seroption{
+    padding-top:30px;
+    background: #99CCFF;
+}
+.sertxt h2{
+    margin-top: 130px;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.sertxt p{
+    margin-right: 50px;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.box_container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box {
+    padding: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color:white;
+}
+    
+ .sertxt a {
+    display: inline-block;
+    padding: 10px 50px;
+    border: 1px solid #000;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 15px;
+    color: #000;
+    transition: all linear 0.3s;   
+}
+    
